@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6D294C18-EFD2-455C-90D2-3C91EE05E7BA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Kiwi</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5ECD7EA366CCAEBD517162941C6855B5CCC0CD8F</key>
+		<string>https://jean.piaget%2540leadthree.com@git6.projectlocker.com/LeadThree/kiwi.mobile.ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Kiwi.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5ECD7EA366CCAEBD517162941C6855B5CCC0CD8F</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://jean.piaget%2540leadthree.com@git6.projectlocker.com/LeadThree/kiwi.mobile.ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5ECD7EA366CCAEBD517162941C6855B5CCC0CD8F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5ECD7EA366CCAEBD517162941C6855B5CCC0CD8F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>kiwi.mobile.ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

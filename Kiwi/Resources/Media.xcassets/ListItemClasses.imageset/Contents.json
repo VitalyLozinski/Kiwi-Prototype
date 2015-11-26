@@ -1,0 +1,31 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "fill",
+          "width" : 23,
+          "height" : 14
+        },
+        "capInsets" : {
+          "bottom" : 14,
+          "top" : 11,
+          "right" : 71,
+          "left" : 34
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "ks_list_item_classes@2x.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

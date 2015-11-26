@@ -1,0 +1,31 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "fill",
+          "width" : 61,
+          "height" : 5
+        },
+        "capInsets" : {
+          "bottom" : 13,
+          "top" : 45,
+          "right" : 17,
+          "left" : 20
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "ks_map_search_field@2x.png",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

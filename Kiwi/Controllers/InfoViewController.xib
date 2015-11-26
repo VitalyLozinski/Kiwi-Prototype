@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InfoViewController">
+            <connections>
+                <outlet property="closeIntroButton" destination="QEX-GT-Igp" id="dM7-BU-XyN"/>
+                <outlet property="page1" destination="Bs3-Gr-Ntc" id="BdT-zd-KDS"/>
+                <outlet property="page1Dot" destination="qQ3-Ir-VFM" id="qsa-M1-qn8"/>
+                <outlet property="page1Text" destination="zwF-x6-0Kg" id="TmN-Mg-DwU"/>
+                <outlet property="page1Title" destination="Tgf-fZ-cV7" id="8Oc-8g-dZg"/>
+                <outlet property="page2" destination="1Du-wK-BSb" id="Raw-8u-4yh"/>
+                <outlet property="page2Dot" destination="NQL-U3-Lpn" id="FTE-jw-PJu"/>
+                <outlet property="page2Text" destination="pUH-ID-f3x" id="0L2-id-7XE"/>
+                <outlet property="page2Title" destination="fJu-kh-9wg" id="tyh-rz-ymm"/>
+                <outlet property="page3" destination="iK6-tO-knx" id="mxi-wH-BJw"/>
+                <outlet property="page3Dot" destination="o75-V0-35r" id="rsr-LX-6j4"/>
+                <outlet property="page3Text" destination="a7y-x2-0bh" id="l8Z-2e-HEW"/>
+                <outlet property="page3Title" destination="eU1-ZV-R1G" id="Fzd-VF-5y0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bs3-Gr-Ntc" userLabel="Page1">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IntroPage1" translatesAutoresizingMaskIntoConstraints="NO" id="Uyx-Kr-9vR">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="568" id="4q8-2k-KQp"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feel Great" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgf-fZ-cV7">
+                            <rect key="frame" x="10" y="371" width="300" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="uPK-jh-eQL"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's the way to do it" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zwF-x6-0Kg">
+                            <rect key="frame" x="10" y="429" width="300" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="WnV-nv-97w"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="Tgf-fZ-cV7" secondAttribute="trailing" constant="10" id="6Wj-83-Roo"/>
+                        <constraint firstItem="zwF-x6-0Kg" firstAttribute="leading" secondItem="Bs3-Gr-Ntc" secondAttribute="leading" constant="10" id="PBP-3M-BBW"/>
+                        <constraint firstAttribute="bottom" secondItem="zwF-x6-0Kg" secondAttribute="bottom" constant="103" id="XEH-0i-QEO"/>
+                        <constraint firstItem="Uyx-Kr-9vR" firstAttribute="leading" secondItem="Bs3-Gr-Ntc" secondAttribute="leading" id="XM9-Ht-xvw"/>
+                        <constraint firstItem="zwF-x6-0Kg" firstAttribute="top" secondItem="Tgf-fZ-cV7" secondAttribute="bottom" constant="8" id="bSZ-be-LjD"/>
+                        <constraint firstAttribute="trailing" secondItem="zwF-x6-0Kg" secondAttribute="trailing" constant="10" id="dGr-Iv-KbC"/>
+                        <constraint firstAttribute="bottom" secondItem="Uyx-Kr-9vR" secondAttribute="bottom" id="kUG-ct-EoD"/>
+                        <constraint firstItem="Tgf-fZ-cV7" firstAttribute="leading" secondItem="Bs3-Gr-Ntc" secondAttribute="leading" constant="10" id="kze-8k-0gb"/>
+                        <constraint firstAttribute="trailing" secondItem="Uyx-Kr-9vR" secondAttribute="trailing" id="yf8-6P-UGv"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Du-wK-BSb" userLabel="Page2">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IntroPage2" translatesAutoresizingMaskIntoConstraints="NO" id="QiL-XZ-xV3">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="568" id="nko-OM-OSu"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feel Great" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJu-kh-9wg">
+                            <rect key="frame" x="10" y="371" width="300" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="1Rn-ZD-4GW"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's the way to do it" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pUH-ID-f3x">
+                            <rect key="frame" x="10" y="429" width="300" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="thd-RM-chs"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="fJu-kh-9wg" secondAttribute="trailing" constant="10" id="5WE-Mn-Z4N"/>
+                        <constraint firstItem="pUH-ID-f3x" firstAttribute="top" secondItem="fJu-kh-9wg" secondAttribute="bottom" constant="8" id="F8k-5a-Pce"/>
+                        <constraint firstItem="fJu-kh-9wg" firstAttribute="leading" secondItem="1Du-wK-BSb" secondAttribute="leading" constant="10" id="UeG-R5-rRa"/>
+                        <constraint firstAttribute="trailing" secondItem="pUH-ID-f3x" secondAttribute="trailing" constant="10" id="UgZ-b6-Jyh"/>
+                        <constraint firstItem="QiL-XZ-xV3" firstAttribute="leading" secondItem="1Du-wK-BSb" secondAttribute="leading" id="Vea-sc-Pc9"/>
+                        <constraint firstAttribute="bottom" secondItem="QiL-XZ-xV3" secondAttribute="bottom" id="WPb-DP-kjN"/>
+                        <constraint firstAttribute="trailing" secondItem="QiL-XZ-xV3" secondAttribute="trailing" id="h4o-l8-s8x"/>
+                        <constraint firstAttribute="bottom" secondItem="pUH-ID-f3x" secondAttribute="bottom" constant="103" id="kpO-Tw-bds"/>
+                        <constraint firstItem="pUH-ID-f3x" firstAttribute="leading" secondItem="1Du-wK-BSb" secondAttribute="leading" constant="10" id="lTB-88-KmX"/>
+                    </constraints>
+                </view>
+                <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iK6-tO-knx" userLabel="Page3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IntroPage3" translatesAutoresizingMaskIntoConstraints="NO" id="WMg-vD-Moi">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="568" id="82V-tb-dgf"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feel Great" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eU1-ZV-R1G">
+                            <rect key="frame" x="10" y="371" width="300" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="JeI-df-sGz"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="It's the way to do it" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="a7y-x2-0bh">
+                            <rect key="frame" x="10" y="429" width="300" height="70"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="70" id="44D-S9-D49"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="a7y-x2-0bh" firstAttribute="top" secondItem="eU1-ZV-R1G" secondAttribute="bottom" constant="8" id="9v4-xx-D6O"/>
+                        <constraint firstAttribute="trailing" secondItem="eU1-ZV-R1G" secondAttribute="trailing" constant="10" id="BEJ-Ef-HyV"/>
+                        <constraint firstAttribute="bottom" secondItem="a7y-x2-0bh" secondAttribute="bottom" constant="69" id="BLr-E9-ibi"/>
+                        <constraint firstItem="a7y-x2-0bh" firstAttribute="leading" secondItem="iK6-tO-knx" secondAttribute="leading" constant="10" id="BPf-4V-GSW"/>
+                        <constraint firstAttribute="trailing" secondItem="WMg-vD-Moi" secondAttribute="trailing" id="asA-XB-5e6"/>
+                        <constraint firstAttribute="trailing" secondItem="a7y-x2-0bh" secondAttribute="trailing" constant="10" id="gaU-lG-q9b"/>
+                        <constraint firstAttribute="bottom" secondItem="WMg-vD-Moi" secondAttribute="bottom" id="tHb-1s-C7N"/>
+                        <constraint firstItem="eU1-ZV-R1G" firstAttribute="leading" secondItem="iK6-tO-knx" secondAttribute="leading" constant="10" id="vgL-bN-pbt"/>
+                        <constraint firstItem="WMg-vD-Moi" firstAttribute="leading" secondItem="iK6-tO-knx" secondAttribute="leading" id="wQD-V6-d0Z"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEX-GT-Igp" userLabel="Button-CloseGreen">
+                    <rect key="frame" x="262" y="21" width="54" height="54"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="CloseButton">
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="GreenCloseButton"/>
+                    <connections>
+                        <action selector="closePressed:" destination="-1" eventType="touchUpInside" id="qDd-n6-Otx"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uqD-aV-sd0">
+                    <rect key="frame" x="80" y="495" width="160" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenDot" translatesAutoresizingMaskIntoConstraints="NO" id="EYd-E1-2q2">
+                            <rect key="frame" x="16" y="21" width="8" height="8"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenDot" translatesAutoresizingMaskIntoConstraints="NO" id="PLW-vc-lDw">
+                            <rect key="frame" x="76" y="21" width="8" height="8"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenDot" translatesAutoresizingMaskIntoConstraints="NO" id="cKW-PJ-W5V">
+                            <rect key="frame" x="136" y="21" width="8" height="8"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenDotSelection" translatesAutoresizingMaskIntoConstraints="NO" id="qQ3-Ir-VFM" userLabel="Image View - GreenDotSelected">
+                            <rect key="frame" x="15" y="20" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenDotSelection" translatesAutoresizingMaskIntoConstraints="NO" id="NQL-U3-Lpn" userLabel="Image View - GreenDotSelected">
+                            <rect key="frame" x="75" y="20" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GreenDotSelection" translatesAutoresizingMaskIntoConstraints="NO" id="o75-V0-35r" userLabel="Image View - GreenDotSelected">
+                            <rect key="frame" x="135" y="20" width="10" height="10"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N3S-Lh-sIN" userLabel="Button - Button1">
+                            <rect key="frame" x="-5" y="0.0" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="page0:" destination="-1" eventType="touchUpInside" id="V55-ab-HPw"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkZ-20-xHh" userLabel="Button - Button2">
+                            <rect key="frame" x="55" y="0.0" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="page1:" destination="-1" eventType="touchUpInside" id="ruv-cg-ZHz"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y4Q-wv-xwm" userLabel="Button - Button3">
+                            <rect key="frame" x="115" y="0.0" width="50" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="page2:" destination="-1" eventType="touchUpInside" id="gMk-ue-Q1K"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="xCE-Cc-mTn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Bs3-Gr-Ntc" secondAttribute="trailing" id="08r-0a-yhw"/>
+                <constraint firstItem="Bs3-Gr-Ntc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="0Fb-qM-npx"/>
+                <constraint firstAttribute="trailing" secondItem="1Du-wK-BSb" secondAttribute="trailing" id="6w8-w6-FMu"/>
+                <constraint firstItem="iK6-tO-knx" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="BcU-3a-9Pc"/>
+                <constraint firstAttribute="trailing" secondItem="iK6-tO-knx" secondAttribute="trailing" id="G2Q-9P-e59"/>
+                <constraint firstItem="uqD-aV-sd0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="80" id="Hwl-7w-UDb"/>
+                <constraint firstItem="iK6-tO-knx" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="KWB-6R-gw0"/>
+                <constraint firstAttribute="bottom" secondItem="Bs3-Gr-Ntc" secondAttribute="bottom" id="LfP-v3-qjO"/>
+                <constraint firstAttribute="trailing" secondItem="uqD-aV-sd0" secondAttribute="trailing" constant="80" id="P1M-VL-J13"/>
+                <constraint firstAttribute="bottom" secondItem="uqD-aV-sd0" secondAttribute="bottom" constant="23" id="QGz-Be-Esw"/>
+                <constraint firstAttribute="bottom" secondItem="iK6-tO-knx" secondAttribute="bottom" id="Tdi-k9-FcO"/>
+                <constraint firstItem="Bs3-Gr-Ntc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Um0-k9-wZ6"/>
+                <constraint firstItem="1Du-wK-BSb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ckK-bn-nB7"/>
+                <constraint firstItem="1Du-wK-BSb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hum-bY-GNE"/>
+                <constraint firstAttribute="bottom" secondItem="1Du-wK-BSb" secondAttribute="bottom" id="nsZ-4g-MzU"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CloseButton" width="31" height="31"/>
+        <image name="GreenCloseButton" width="31" height="31"/>
+        <image name="GreenDot" width="8" height="8"/>
+        <image name="GreenDotSelection" width="10" height="10"/>
+        <image name="IntroPage1" width="320" height="568"/>
+        <image name="IntroPage2" width="320" height="568"/>
+        <image name="IntroPage3" width="320" height="568"/>
+    </resources>
+</document>

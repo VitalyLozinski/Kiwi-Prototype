@@ -1,0 +1,43 @@
+PODS:
+  - Bolts (1.1.4)
+  - Braintree (2.3.0)
+  - Facebook-iOS-SDK (3.23.0):
+    - Bolts (~> 1.0)
+  - GoogleAnalytics-iOS-SDK (3.10):
+    - GoogleAnalytics-iOS-SDK/Core (= 3.10)
+  - GoogleAnalytics-iOS-SDK/Core (3.10)
+  - Instabug (4.1)
+  - NSData+Base64 (1.0.0)
+  - OAuthCore (0.0.1):
+    - NSData+Base64
+  - STTwitter (0.1.9)
+
+DEPENDENCIES:
+  - Braintree (from `https://github.com/braintree/braintree_ios.git`, tag `2.3.0`)
+  - Facebook-iOS-SDK
+  - GoogleAnalytics-iOS-SDK
+  - Instabug
+  - OAuthCore
+  - STTwitter
+
+EXTERNAL SOURCES:
+  Braintree:
+    :git: https://github.com/braintree/braintree_ios.git
+    :tag: 2.3.0
+
+CHECKOUT OPTIONS:
+  Braintree:
+    :git: https://github.com/braintree/braintree_ios.git
+    :tag: 2.3.0
+
+SPEC CHECKSUMS:
+  Bolts: dd9fb8433d67f5acc3b6b4d1379bbc5513d716c1
+  Braintree: 3d42dacf5271c59a8c24aa217291bddbcf4aeaec
+  Facebook-iOS-SDK: 3d65f685348b789e46a9aacf92bfa85b60b63755
+  GoogleAnalytics-iOS-SDK: f422062075d9ccb1ea8d783fc5ba3829461e9502
+  Instabug: 2f7d096820c8d2f6a17c54ccf78ca9ecd595fb1e
+  NSData+Base64: aae92a2e3f0bd88b29fe6093551ded3f5c062548
+  OAuthCore: 09d3c56dd3f64a61d1ffcbf103f28118ff8ca2e9
+  STTwitter: c9ddaac928660d64e346546d554069a7cdaaf5aa
+
+COCOAPODS: 0.36.0

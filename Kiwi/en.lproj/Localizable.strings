@@ -1,0 +1,297 @@
+/* Localized versions of Info.plist keys */
+
+"DefaultTitle" = "KiwiSweat";
+
+"Cancel" = "Cancel";
+"Email" = "Email";
+"Map" = "Map";
+"No" = "No";
+"Or" = "or";
+"Register" = "Register";
+"Save" = "Save";
+"Signin" = "Sign in!";
+"Yes" = "Yes";
+
+/* login screen */
+"LoginTitle" = "Sign in now!";
+"InvalidEmail" = "Please use a valid email address";
+"ForgotPassText" = "Forgot your password?";
+"NoFBAccount" = "Please set up valid Facebook account to login";
+"TwitterSetupInstruction" = "To sign in with Twitter, please configure your Twitter account on your device.";
+
+/* info */
+"InfoPage1Title" = "Stay Fit";
+"InfoPage1Text" = "Just like grandma did";
+"InfoPage2Title" = "Endorphins";
+"InfoPage2Text" = "Getting hooked ain't bad";
+"InfoPage3Title" = "Get High";
+"InfoPage3Text" = "The second best way\nto do it";
+
+/* map screen */
+"EventMapTitle" = "KiwiSweat";
+"EventsMapView" = "Map";
+"EventsListView" = "List";
+"SearchBarPlaceholder" = "Enter an address";
+"UserProfileTitle" = "My Account";
+"EventsGroupTitle" = "";
+
+/* filters */
+"TimeFilterFrom" = "From";
+"TimeFilterTo" = "To";
+"AddTimeFilter" = "Add new";
+"SaveAndCloseFilters" = "Save & Close";
+"CloseFilters" = "Close";
+
+"NoRightHereRightNowTitle" = "";
+"NoRightHereRightNowText" = "We're sorry, there are no classes happening today in your immediate vicinity.";
+
+"UserProfileTitle" = "My Profile";
+"PaymentsListTitle" = "Payments History";
+"ClassesListTitle" = "My Classes";
+
+"BookClassTitle" = "Book Class";
+
+"UnsavedChanges" = "Unsaved changes";
+"UnsavedChangesText" = "You have unsaved changes. Do you want to save them?";
+
+/* login screen */
+"ForgotPassword" = "Forgot Password?";
+"LoginTitle" = "Sign in now!";
+"ForgotPassText" = "Forgot your password?";
+"AllowFBAccount" = "Please allow Kiwi to access your Facebook account";
+"NoFBAccount" = "Please set up valid Facebook account to login";
+"AllowTwiAccount" = "Please allow Kiwi to access your Twitter account";
+
+/* class details screen */
+"BookClass" = "Book Class";
+"CancelClass" = "Cancel Class";
+"ShowPass" = "Display My Pass";
+"AttendingEvent" = "You are attending this class";
+"AttendedEvent" = "You attended this class";
+"EventBooked" = "Class was successfully booked!";
+"EventCanceled" = "Class was canceled.";
+"EventBookingFailed" = "There was a problem with your booking!";
+"EventCancelFailed" = "There was a problem with your booking!";
+"CancelConfirmationTitle" = "Cancel Confirmation";
+"CancelConfirmationText" = "Are you sure you want to cancel the class?";
+
+/* my classes */
+"UpcomingClasses" = "Upcoming Classes";
+"PastClasses" = "Past Classes";
+
+/* profile screeen */
+"FirstName" = "First name";
+"LastName" = "Last name";
+"ChangePass" = "Change Password";
+"OldPass" = "Current password";
+"NewPass" = "New password";
+"ConfirmPass" = "Confirm password";
+"SavePassNeeded" = "Please, enter your current password to save changes";
+"PassNotMatching" = "Your new password fields doesn't match";
+"UploadPhoto" = "Upload\n Photo";
+"TakePhoto" = "Take a photo";
+"PickPhoto" = "Pick photo from gallery";
+
+/* rate */
+"RateHeader" = "We'd love your feedback!";
+"RateSubHeader" = "Did you enjoy your last class?";
+"RateHint" = "Rate the class:";
+"RateCommentPlaceholder" = "Any additional comments?";
+"RateDone" = "Done";
+
+/* promo */
+"PromoGoToClass" = "Go to Class";
+"PromoGoToMap" = "Go to Map";
+
+/* terms and conditions */
+"TacTitle" = "Terms and Conditions";
+"TacAccept" = "Accept";
+"TacText" = "{KIWISWEAT}\
+{TERMS OF SERVICE}\
+{Last Updated: 6 Aug 2014}\
+\
+Our terms of service (these {\"Terms\"}) apply to your access and use of the mobile application (the {\"App\"}), our website located at kiwisweat.com ({\"Site\"}) and other services (collectively, the {\"Service\"}) of KiwiSweat, LLC. ({\"KiwiSweat,\"} {\"we,\"} {\"us\"} or {\"our\"}). If you are a member of our instructor network, your rights and obligations as a member of our instructor network are governed by the KiwiSweat Instructor Network Terms. If you are interested in becoming a member of our instructor network, please see the KiwiSweat Instructor Network Terms available via our Site.\
+\
+{Accepting these Terms}\
+\
+If you access or use the Service, it means you agree to be bound by all of the terms below. Please read all of the terms before you use the Service. If a term does not make sense to you, please let us know. If you do not agree to all of the terms below, you may not use the Service.\
+\
+{Charges to these Terms}\
+\
+We encourage you to review the Terms regularly to know about our practices. We may change these Terms from time to time. For example, we may change these Terms if we come out with a new feature. If we make changes, we will let you know by revising the date at the top of the policy and, in some cases, provide you with additional notice (such as sending you an email notification). Any changes we make to these Terms will be effective when we post them. If you use the Service after we have posted the changed Terms, then you have accepted the changes to these Terms.\
+\
+{Privacy Policy}\
+\
+For information about how we collect, use and share information about users of the Service, please see our <Privacy Policy>.\
+\
+{Description of the Service}\
+\
+We provide a fun and unique way to workout. Our network enables you to find the workout you want at the location you desire. For more information about the Service, please see our <About page>.\
+\
+{We do not provide exercise programs. We provide a way to connect instructors providing exercise classes with individuals seeking exercise classes. All exercise programs should be done in consultation with a certified medical professional. Please work with a professional and make sure you get the approval of a medical professional prior to embarking on any exercise program.}\
+\
+{Creating Accounts}\
+\
+When you create an account, you must maintain the security of your password and accept all risk that someone may access your account without your permission.  If you discover or suspect any Service security breaches, please let us know as soon as possible. You represent and warrant to us that all information that you provide in connection with your account is accurate, truthful, current, and complete. KiwiSweat reserves the right to deny any account at our discretion.\
+\
+{Right to Use the Service}\
+\
+On the condition that you fully comply with these Terms, KiwiSweat grants you a limited, nonexclusive, non-transferable, and revocable license to access and use the Service. However, the App may only be used on mobile devices that you own or control. The terms of this license will also govern any upgrades provided by KiwiSweat that replace and/or supplement the original App, unless the upgrade is accompanied by a separate license, in which case the terms of that license will govern.\
+\
+Except as expressly authorized by these Terms, you may not: (a) modify, disclose, alter, translate or create derivative works of the Service; (b) license, sublicense, resell, distribute, lease, rent, lend, transfer, assign or otherwise dispose of the Service; (c) disassemble, decompile or reverse engineer any of the software components of the Service; (d) copy, frame or mirror any part of the Service; (e) interfere with or disrupt the integrity or performance of the Service; or (f) attempt to gain unauthorized access to the Service or its related systems or networks.\
+\
+{Class Fees}\
+\
+In order to participate in a class, you must reserve a spot. You can reserve a spot via the Service by paying the applicable class fee. All payments must be made in U.S. Dollars by credit or debit card via an authorized KiwiSweat payment processor.\
+\
+KiwiSweat will charge the credit/debit card provided by you via the Service in advance. You hereby authorize KiwiSweat (or its authorized payment processor) to charge the credit/debit card number provided via the Service in accordance the amount associated with the class for which you are reserving a spot. You represent and warrant that you are authorized to use and have fees charged to the credit/debit card number you provided to KiwiSweat.\
+\
+{Prohibited Use of the Service}\
+\
+You may not post and otherwise make available on or through the Service any of the following:\
+\
+\U2022 Private information of any other persons (including names, email addresses, phone numbers, Social Security numbers and financial information);\
+\U2022 Content that is libelous, defamatory, abusive, offensive or hateful;\
+\U2022 Content that is obscene, pornographic, indecent or sexually explicit, depicts graphic, excessive or gratuitous violence;\
+\U2022 Content that is illegal, harmful or offensive or that would encourage, solicit, foster, glorify or provide instructions for any criminal or civil offense;\
+\U2022 Content that may infringe, misappropriate or violate any intellectual property rights, rights of privacy, rights of publicity or any other rights of others;\
+\U2022 Viruses, corrupted data or other harmful, disruptive or destructive files or code;\
+\U2022 Content that, in KiwiSweat's judgment, is objectionable, may restrict or inhibit another from enjoying the Service or may expose KiwiSweat or users of the Service to harm or liability of any type; and/or\
+\U2022 Content that you are contractually or legally required to keep confidential.\
+\
+In addition, you may not do any of the following in connection with the Service or other users: \
+\
+\U2022 Use the Service in any manner that could interfere with, disrupt, negatively affect or inhibit other users from fully enjoying the Service or that could damage, disable, overburden or impair the functioning of the Service;\
+\U2022 Collect any personal information about other users;\
+\U2022 Intimidate, threaten, stalk, bully or otherwise harass other users; \
+\U2022 Post spam or commercial messages through the Service;\
+\U2022 Create an account or use the Service if you are not over 13 years of age;\
+\U2022 Use the Service for any illegal or unauthorized purpose or to engage in, encourage or promote any activity that unlawful or that violates these Terms; and\
+\U2022 Circumvent or attempt to circumvent any filtering, security measures, rate limits or other features designed to protect the Service, its users, or third parties.\
+\U2022 Your use of the Service is at your own risk. KiwiSweat is not responsible or liable for the conduct of, or your interactions with, any other users (whether online or offline) or for any related damage or harm. Although we have no obligation to screen, edit, or monitor user content, we reserve the right, and have the discretion, to screen, edit, or remove any user content at any time, for any reason and without notice.\
+\
+{User Content \U2014 Reporting and Removal}\
+\
+A user may report a prohibited content to KiwiSweat that he/she thinks violates these Terms, and KiwiSweat may remove such user content, suspend or terminate the account of the user who made provided the content and/or take additional action to enforce these Terms against such user.\
+\
+In addition, in accordance with the Digital Millennium Copyright Act (DMCA) and other applicable law, KiwiSweat has adopted a policy of terminating, in appropriate circumstances and at our discretion, account holders who are deemed repeat infringers. We also may, at our discretion, limit access to the Service and terminate the accounts of any users who infringe any intellectual property rights of others, whether or not there is any repeat infringement.\
+\
+If you think that anything on the Service infringes upon any copyright that you own or control, you may file a notification with KiwiSweat's Designated Agent as set forth below:\
+\
+Designated Agent:\
+Alicia Thomas\
+\
+Address of Designated Agent:\
+459 Columbus Avenue #306, New York, NY 10024\
+\
+Telephone Number of Designated Agent:\
+(646) 494 7905\
+\
+Fax Number of Designated Agent:\
+(646) 417 6020\
+\
+Email Address of Designated Agent:\
+info@kiwisweat.com\
+\
+Please see 17 U.S.C. \U00A7 512(c)(3) for the requirements of a proper notification. If you knowingly misrepresent that any material or activity is infringing, you may be liable for any damages, including costs and attorneys' fees, KiwiSweat or the alleged infringer incurs because we relied on the misrepresentation when removing or disabling access to the material or activity. \
+\
+{KiwiSweat's Rights}\
+\
+As between you and KiwiSweat, all information, materials and content of the Service, including text, graphics, data, formatting, graphs, designs, HTML, look and feel, photographs, music, sounds, images, software, videos, designs, typefaces, source and object code, format, queries, algorithms and other content is owned by KiwiSweat or is used with permission. When you post, link or otherwise make available content to the Service, you grant us a nonexclusive, royalty-free, perpetual, irrevocable and fully sublicensable right to use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, perform and display such content throughout the world in any manner or media, on or off the App. KiwiSweat reserves all rights not expressly set forth in these Terms.\
+\
+{Feedback}\
+\
+Any suggestions, comments, or other feedback you give us about the Service will be our confidential information. We are free to use, disclose, reproduce, license, distribute and exploit this feedback as we see fit, without compensation to you or any obligation or restriction because of any intellectual property rights or otherwise.\
+\
+{Disclaimers}\
+\
+{As a platform that connects people who want to find a great workout with people providing fitness related classes, you acknowledge and agree that KiwiSweat is not liable for the acts or omissions of the individuals providing fitness classes, the facilities or other environments within which the classes occur and any damages or losses (physical, mental or otherwise) caused by, arising out of, resulting from, attributable to or in any way incidental to the classes or your workout.}\
+\
+KIWISWEAT IS NOT RESPONSIBLE FOR ANY CLASS CANCELATIONS.\
+YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT YOUR USE OF THE SERVICE AND ANY WORKOUTS/CLASSES RELATED THERETO ARE AT YOUR SOLE RISK AND THAT THE ENTIRE RISK (INCLUDING, BUT NOT LIMITED TO, RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, SAFETY AND ACCURACY) IS WITH YOU. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SERVICE AND ANY WORKOUTS/CLASSES RELATED THERETO ARE PROVIDED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS. WE DISCLAIM ANY AND ALL WARRANTIES AND REPRESENTATIONS (EXPRESS OR IMPLIED, ORAL OR WRITTEN) WITH RESPECT TO THESE TERMS, THE SERVICE, ANY WORKOUTS/CLASSES, OUR PRODUCTS AND/OR SERVICES, USER CONTENT, THIRD-PARTY SERVICES OR THIRD-PARTY MATERIALS, WHETHER ALLEGED TO ARISE BY OPERATION OF LAW, BY REASON OF CUSTOM OR USAGE IN THE TRADE, BY COURSE OF DEALING OR OTHERWISE, INCLUDING ANY AND ALL: (A) WARRANTIES OF MERCHANTABILITY; (B) WARRANTIES OF FITNESS OR SUITABILITY FOR ANY PURPOSE (WHETHER OR NOT WE KNOW, HAVE REASON TO KNOW, HAVE BEEN ADVISED OR ARE OTHERWISE AWARE OF ANY SUCH PURPOSE); AND (C) WARRANTIES OF NON-INFRINGEMENT OR CONDITION OF TITLE. WE DO NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE SERVICE WILL BE ACCURATE OR MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE SERVICE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT ANY DEFECTS IN THE SERVICE WILL BE CORRECTED. NO ORAL OR WRITTEN INFORMATION, GUIDELINES, OR ADVICE GIVEN BY OUR AUTHORIZED REPRESENTATIVE OR US WILL CREATE A WARRANTY.\
+\
+{No Medical Advice. THE CONTENT AND/OR INFORMATION PROVIDED VIA THE SERVICE DOES NOT CONTAIN OR CONSTITUTE AND SHOULD NOT BE INTERPRETED AS, MEDICAL ADVICE, OPINION, OR SERVICES, AND THERE IS NO DOCTOR-PATIENT RELATIONSHIP BETWEEN KIWISWEAT AND YOU.}\
+\
+{All weight reduction/control programs and exercise programs should be done in consultation with a certified medical professional. Please work with a professional and make sure you get the approval of a medical professional prior to embarking on any exercise program.}\
+\
+{Limitation of Liability}\
+\
+OUR TOTAL LIABILITY ARISING OUT OF OR RELATING TO THE USE OF OR INABILITY TO USE THE SERVICE WILL NOT EXCEED THE INITIAL FEE TO DOWNLOAD THE APP (AS OPPOSED TO AMOUNT PAID FOR ANY CLASSES OR ANY OTHER FEES/COSTS RELATED TO THE USE OF THE SERVICE INCLUDING, BUT NOT LIMITED TO, ANY FEES ASSOCIATED WITH YOUR DEVICE).\
+\
+EXCEPT AS EXPRESSLY STATED ABOVE, TO THE EXTENT NOT PROHIBITED BY LAW, IN NO EVENT WILL WE BE LIABLE TO YOU OR ANY THIRD-PARTY FOR ANY DIRECT, INCIDENTAL, SPECIAL, INDIRECT, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES WHATSOEVER INCLUDING, BUT NOT LIMITED TO, bodily injury, emotional distress OR death HOWEVER CAUSED, REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, WARRANTY, TORT (INCLUDING NEGLIGENCE, WHETHER ACTIVE, PASSIVE OR IMPUTED), PRODUCT LIABILITY, STRICT LIABILITY OR OTHER THEORY) AND EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. \
+\
+SOME STATES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITATION MAY NOT APPLY TO YOU.\
+\
+{Indemnification}\
+\
+You agree, at your sole expense, to defend, indemnify and hold us, our service providers and consultants, and their respective directors, employees and agents, harmless from and against any and all actual or threatened suits, actions, proceedings (at law or in equity), claims, damages, payments, deficiencies, fines, judgments, settlements, liabilities, losses, costs and expenses (including, but not limited to, reasonable attorney fees, costs, penalties, interest and disbursements) caused by, arising out of, resulting from, attributable to or in any way incidental to: (a) your conduct; (b) your violation of the Terms or the rights of any third-party; or (c) any user content.\
+\
+{Third Party Software}\
+\
+The software you download consists of a package of components, including certain third party software provided under separate third party license terms. Your use of this third party software in conjunction with the App in a manner consistent with the terms of these Terms is permitted, however, you may have broader rights under the applicable third party license terms, and nothing in these Terms is intended to impose further restrictions on your use of this third party software.\
+\
+{Changes to the Service}\
+\
+KiwiSweat reserves the right in our discretion to review, improve, change, or discontinue, temporarily or permanently, the Service and/or any features, information, materials or content on the Service with or without providing notice to you. KiwiSweat will not be liable to you or any third party for any changes or discontinuance of the Service or any part of the Service.\
+\
+{Consent to Electronic Communications}\
+\
+By using the Service, you agree that we may communicate with you electronically regarding your use of the Service and that any notices, agreements, disclosures, or other communications that we send to you electronically will satisfy any legal communication requirements, including that the communications be in writing. To withdraw your consent from receiving electronic notice, please notify us at info@kiwisweat.com.\
+\
+{Suspension and Termination}\
+\
+KiwiSweat may suspend or terminate your rights to access or use the Service (including the App) for any reason or for no reason at all and with or without notice at KiwiSweat's discretion. Suspension or termination may include restricting access to and use of the App. All of the terms of these Terms (excluding the license grant) will survive any termination or suspension.\
+\
+{Governing Law; Arbitration}\
+\
+PLEASE READ THE FOLLOWING PARAGRAPHS CAREFULLY BECAUSE THEY REQUIRE YOU TO ARBITRATE DISPUTES WITH KIWISWEAT AND LIMIT THE MANNER IN WHICH YOU CAN SEEK RELIEF FROM KIWISWEAT.\
+\
+In the event of any controversy or claim arising out of or relating in any way to these Terms or the Service, you and KiwiSweat agree to consult and negotiate with each other and, recognizing your mutual interests, try to reach a solution satisfactory to both parties. If we do not reach settlement within a period of 60 days, then either of us may, by notice to the other demand mediation under the mediation rules of the American Arbitration Association in New York, New York. We both give up our right to litigate our disputes and may not proceed to arbitration without first trying mediation, but you and KiwiSweat are NOT required to arbitrate any dispute in which either party seeks equitable and other relief from the alleged unlawful use of copyrights, trademarks, trade names, logos, trade secrets or patents. Whether the dispute is heard in arbitration or in court, you and KiwiSweat will not commence against the other a class action, class arbitration or other representative action or proceeding.\
+\
+If settlement is not reached within 60 days after service of a written demand for mediation, any unresolved controversy or claim will be resolved by arbitration in accordance with the rules of the American Arbitration Association before a single arbitrator in New York, New York. The language of all proceedings and filings will be English. The arbitrator will render a written opinion including findings of fact and law and the award and/or determination of the arbitrator will be binding on the parties, and their respective administrators and assigns, and will not be subject to appeal. Judgment may be entered upon the award of the arbitrator in any court of competent jurisdiction. The parties will share the expenses of the arbitration equally unless the arbitration determines that the expenses will be otherwise assessed and the arbitrator may award the prevailing party its attorneys' fees and expenses. It is the intent of the parties that, barring extraordinary circumstances, arbitration proceedings will be concluded within 90 days from the date the arbitrator is appointed. The arbitrator may extend this time limit only if failure to do so would unduly prejudice the rights of the parties. Failure to adhere to this time limit will not constitute a basis for challenging the award. Consistent with the expedited nature of arbitration, pre-hearing information exchange will be limited to the reasonable production of relevant, non-privileged documents, carried out expeditiously.\
+\
+{General}\
+\
+Enforcement of these Terms is solely at KiwiSweat's discretion. Failure to enforce any part of these Terms in some instances does not constitute a waiver of our right to enforce the same or other part of these Terms in other instances. If any provision of these Terms is or becomes unlawful, void or otherwise unenforceable (including the warranty disclaimers and liability limitations above), then that provision will be deemed superseded by a valid, enforceable provision that most closely matches the intent of the original provision, and the remaining provisions of these Terms will continue in full force and effect. As used in these Terms, \"including\" means \"including (without limitation).\" The section headings these Terms and are for reference purposes only and will not affect the meaning or interpretation of these Terms.\
+\
+{NOTICE REGARDING APPLE}\
+\
+Notwithstanding any terms to the contrary in these Terms, the following additional terms will apply to the download of the App for use on the iPhone, iPod Touch or iPad:\
+\
+You and KiwiSweat acknowledge that the terms are solely between you and KiwiSweat, and not with Apple, Inc. (\"Apple\"), and that KiwiSweat, not Apple, is solely responsible for the Service, the content thereof, maintenance, support services and warranty therefor, and addressing any claims relating thereto (e.g., product liability, legal compliance or intellectual property infringement). You acknowledge and agree that the availability of the App is dependent on the third party from which you received the App, e.g., the Apple iPhone App Store (\"App Store\"). You agree to pay all fees charged by the App Store in connection with the App (if any). You further acknowledge that the usage rules for the App are subject to any additional restrictions set forth in the Usage Rules for the Apple App Store Terms of Service (\"Apple Usage Rules\") as of the date you download the App. In the event of any conflict between the terms and conditions of the Apple Usage Rules and the terms and conditions of these Terms, the terms and conditions of the Apple Usage Rules will govern if they are more restrictive.\
+\
+{Scope of License}\
+\
+The license granted to you is limited to a non-transferable license to use the App on any iPhone, iPod Touch or iPad that you own or control as permitted by the Apple Usage Rules.\
+\
+{Maintenance and Support}\
+\
+KiwiSweat is solely responsible for providing maintenance and support services with respect to the App. You acknowledge and agree that Apple has no obligation whatsoever to furnish any maintenance and support services with respect to the App.\
+\
+{Warranty}\
+\
+You acknowledge and agree that Apple is not responsible for any product warranties, whether express or implied by law, with respect to the App. In the event of any failure of the App to conform to any applicable warranty, you may notify Apple, and Apple will refund the purchase price, if any, paid to Apple for the App by you, and to the maximum extent permitted by applicable law, Apple will have no other warranty obligation whatsoever with respect to the App. You also acknowledge and agree that to the extent that there are any applicable warranties, or any other claims, losses, liabilities, damages, costs, or expenses attributable to any failure to conform to any such applicable warranty; such will be the sole responsibility of KiwiSweat. However, you understand and agree that, in accordance with these Terms, KiwiSweat has disclaimed all warranties of any kind with respect to the App, and therefore, there are no warranties applicable to the App, except those implied by law.\
+\
+{Product Claims}\
+\
+You and KiwiSweat acknowledge and agree that as between Apple and KiwiSweat, KiwiSweat, not Apple, is responsible for addressing any of your claims or any third party claims relating to the App or your possession and/or use of the App, including, but not limited to (a) product liability claims, (b) any claim that the App fails to conform to any applicable legal or regulatory requirement, and (c) claims arising under consumer protection or similar legislation.\
+\
+{Intellectual Property Rights}\
+\
+You and KiwiSweat acknowledge and agree that, in the event of any third party claim that the App or your possession and use of the App infringes that third party's intellectual property rights, KiwiSweat, and not Apple, will be solely responsible for the investigation, defense, settlement and discharge of any such intellectual property infringement claim to the extent required under these Terms.\
+\
+{Legal Compliance}\
+\
+You represent and warrant that (a) you are not located in a country that is subject to a U.S. Government embargo, or that has been designated by the U.S. Government as a \"terrorist supporting\" country and (b) you are not listed on any U.S. Government list of prohibited or restricted parties. \
+\
+{Developer Name and Address}\
+\
+Any end-user questions, complaints, or claims with respect to the App should be directed to:\
+KiwiSweat, LLC.\
+459 Columbus Avenue #306\
+New York, NY 10024\
+Email: info@kiwisweat.com \
+\
+{Third Party Beneficiary}\
+\
+The parties acknowledge and agree that Apple, and Apple's subsidiaries, are third party beneficiaries of these Terms, and that, upon your acceptance of the terms and conditions of these Terms, Apple will have the right (and will be deemed to have accepted the right) to enforce any of the terms and conditions of these Terms against you as a third party beneficiary thereof.";
